@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(132, 212, 212);
+}
+a{
+    color: darkcyan;
+    text-decoration: dotted;
+}
+a:visited{
+    color: lawngreen;
+}
+.active{
+    color: lawngreen;
+}
+.docplanner-header{
+    display: flex;
+    justify-content: space-between ;
+    border: 3px solid ;
+    padding: 15px;
+}
+.introduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction-log{
+    width: 60px;
+    height: 60px;
+    background-color: aliceblue;
+}
+.introduction-title{
+    color: black;
+}
+.introduction-text{
+    display: flex;
+}
+.services{
+    display: flex;
+}
+.services-card{
+padding: 20px;
+border-radius: 10px;
+color: aliceblue;
+margin: 12px;
+}
+.services-card-patient{
+    background-color: aliceblue;
+}
+.services-card-doctor{
+    background-color: aliceblue;
+}
+
+
+
+
